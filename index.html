@@ -16,6 +16,8 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Include TypeWriter CSS -->
+        <link href="css/blink.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -45,11 +47,10 @@
                 <br>
                 <br>
                 <br>
-                <div class="masthead-subheading">¡Bienvenidos a mi página personal!</div>
+                <div class="masthead-subheading"><p id="message"></p></div>
                 <h6 class="section-subheading">Welcome to my personal website!</h5>
                 <!-- <div class="masthead-heading text-uppercase">It's Nice To Meet You</div> -->
-                <br
-                ><hr>
+                <br><hr>
                 
                 <h7 class="section-subheading" style="font-style: italic;">"Con la metodología adecuada y sin rendirme puedo adaptarme a cualquier situación y aprender nuevas habilidades rápidamente. Si tropiezo en algo que me impida avanzar lo acabo superando sin falta."</h7>
                 <br>
@@ -68,113 +69,98 @@
             <div class="container">
                 <h2 class="section-heading text-uppercase text-center">
                     Sobre mí
+                    <hr>
                 </h2>
+                <br>
                 <div class="row text-center">
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <img class="img-fluid" src="assets/img/top-photo_3.jpg" alt="" style="width:250px;max-width:250px" />
                         </span>
                     </div>
-                    <div class="col-md-4">
-                        <p class="text-muted vertical-center" style="text-align:justify;">
-                            Mi nombre es Mario Muñoz Jiménez. Graduado en Ingeniería Informática en la intensificación de Ingeniería de Computadores de la Escuela Superior de Informática de Ciudad Real. 
-                            Universidad de Castilla - La Mancha. Activamente ampliando mi formación profesional a diario.
-                        </p>
-                    </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <pre id="typewriter">
-                            <span><span class="string-type1tab"><b>Nombre: </b></span></span> <span><span class="string-highlight">'Mario Muñoz Jiménez'</span></span>,
-                            <span><span class="string-type1tab"><b>Residencia: </b></span></span> <span><span class="string-highlight">'Almagro, Ciudad Real'</span></span>,
-                            <span><span class="string-type1tab"><b>Contacto: </b> {</span></span> 
-                                <span><span class="string-type2tab"><b>E-mail: </b> </span></span>  <span><span class="string-highlight">'j.mario.prof@gmail.com'</span></span>,
-                                <span><span class="string-type2tab"><b>Teléfono: </b> </span></span> <span><span class="string-highlight">'(+34) 634 91 16 79'</span></span>
-                            <span><span class="string-type1tab">}</span></span> 
+                            <br>
+                            <span><span class="string-type1tab" style="color:blue;"><b>Nombre: </b></span></span> <span><span class="string-highlight">'Mario Muñoz Jiménez'</span></span>,
+                            <span><span class="string-type1tab" style="color:blue;"><b>Residencia: </b></span></span> <span><span class="string-highlight">'Almagro, Ciudad Real'</span></span>,
+                            <span><span class="string-type1tab"><b style="color:blue;">Contacto: </b> {</span></span> 
+                                <span><span class="string-type2tab" style="color:#1c70c5;"><b>E-mail: </b> </span></span>  <span><span class="string-highlight">'mj.mario.prof@gmail.com'</span></span>,
+                                <span><span class="string-type2tab" style="color:#1c70c5;"><b>Teléfono: </b> </span></span> <span><span class="string-highlight">'(+34) 634 91 16 79'</span></span>
+                            <span><span class="string-type1tab">};</span></span> 
                         </pre>
-                        <!-- <p class="text-muted" style="text-align:justify;"><b>Nombre: </b>Mario Muñoz Jiménez.</p>
-                        <p class="text-muted" style="text-align:justify;"><b>Residencia: </b> Almagro, Ciudad Real.</p>
-                        <p class="text-muted" style="text-align:justify;"><b>E-mail: </b> mj.mario.prof@gmail.com</p>
-                        <p class="text-muted" style="text-align:justify;"><b>Teléfono: </b> (+34) 634 91 16 79</p> -->
                     </div>
-                    <!-- <div class="col-md-4">
-                        <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3">Responsive Design</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                    </div> -->
                 </div>
+                <br>
+                <br>
+                <br>
+                <p class="text-align" style="text-align:justify;">
+                    Mi nombre es <b>Mario Muñoz Jiménez</b>. Graduado en <b>Ingeniería Informática</b> en la intensificación de Ingeniería de Computadores de la <b>Escuela Superior de Informática de Ciudad Real</b>, 
+                    Universidad de Castilla - La Mancha. Activamente ampliando mi formación profesional a diario. Puedo adaptarme a cualquier situación y aprender nuevas habilidades rápidamente. 
+                    Cuando empiezo a hacer algo pongo todo mi empeño en terminarlo y en hacerlo lo mejor posible, tanto por mi bien como por el de la empresa. Mis ganas de seguir aprendiendo no 
+                    se detienen ante nada.
+                </p>
             </div>
         </section>
         <!-- Formacion -->
         <section class="page-section" id="formacion">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Formación</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                <h2 class="section-heading text-uppercase text-center">
+                    Formación
+                    <hr>
+                </h2>
+                <br>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logos/iesantoniocalvin_logo.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>2009-2011</h4>
-                                <h4 class="subheading">Our Humble Beginnings</h4>
+                                <h4>2013-2014</h4>
+                                <h4 class="subheading">Bachillerato Científico-Tecnológico</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                        </div>
-                    </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Bachillerato en Ciencias y Tecnología. IES Antonio Calvín, Almagro (Ciudad Real).</p></div>
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logos/UCLM_2021.png" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2012</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>2014-2021</h4>
+                                <h4 class="subheading">Universidad de Castilla - La Mancha</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Grado en Ingeniería Informática. Escuela Superior de Informática, Ciudad Real.</p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logos/cojali_logo.jpg" alt="" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>July 2014</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
+                                <h4>02/2021 - 08/2021</h4>
+                                <h4 class="subheading">Cojali S.L.</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Sistemas Embebidos, Contrato de prácticas. Campo de Criptana (Ciudad Real).</p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image">
-                            <h4>
-                                Be Part
-                                <br />
-                                Of Our
-                                <br />
-                                Story!
-                            </h4>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/logos/cojali_logo.jpg" alt="" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>08/2021 - Actualidad</h4>
+                                <h4 class="subheading">Cojali S.L.</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Departamento de Electrónica, Linux Embebido. Campo de Criptana (Ciudad Real).</p></div>
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Proyectos -->
-        <section class="page-section bg-light" id="proyectos">
+        <section class="page-section" id="proyectos">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Proyectos</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                <h2 class="section-heading text-uppercase text-center">
+                    Proyectos
+                    <hr>
+                </h2>
+                <br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
@@ -266,10 +252,11 @@
         <!-- Experiencia -->
         <section class="page-section" id="experiencia">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Proyectos</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                <h2 class="section-heading text-uppercase text-center">
+                    Experiencia
+                    <hr>
+                </h2>
+                <br>
                 <div class="row">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
@@ -361,10 +348,11 @@
         <!-- Contacto -->
         <section class="page-section" id="contacto">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contacto</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
+                <h2 class="section-heading text-uppercase">
+                    Contacto
+                    <hr>
+                </h2>
+                <br>
                 <form id="contactForm" name="sentMessage" novalidate="novalidate">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -603,5 +591,7 @@
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <!-- Custom typewriter -->
+        <script src="js/script_tw.js"></script>
     </body>
 </html>
